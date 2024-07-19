@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Predicción de Peligrosidad de Municipios - VISIONA</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .main {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-container {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px #0000001a;
+        }
+        .form-title {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container form-container">
+            <h2 class="form-title text-center">Predicción de Peligrosidad de Municipios - VISIONA</h2>
+            <form action="/prediction" method="POST" id="prediction-form">
+                <h3>Datos de Entrada</h3>
+                <div class="form-group">
+                    <label for="id_municipio">ID Municipio:</label>
+                    <input type="text" class="form-control" name="id_municipio" id="id_municipio" placeholder="ID del municipio" required/>
+                </div>
+                <div class="form-group">
+                    <label for="habitantes">Habitantes:</label>
+                    <input type="text" class="form-control" name="habitantes" id="habitantes" placeholder="Número de habitantes" required/>
+                </div>
+                <div class="form-group">
+                    <label for="accidentes">Accidentes:</label>
+                    <input type="text" class="form-control" name="accidentes" id="accidentes" placeholder="Número de accidentes" required/>
+                </div>
+                <div class="form-group">
+                    <label for="vic_masculina">Víctimas Masculinas:</label>
+                    <input type="text" class="form-control" name="vic_masculina" id="vic_masculina" placeholder="Número de víctimas masculinas" required/>
+                </div>
+                <div class="form-group">
+                    <label for="vic_femenino">Víctimas Femeninas:</label>
+                    <input type="text" class="form-control" name="vic_femenino" id="vic_femenino" placeholder="Número de víctimas femeninas" required/>
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-primary btn-block">Predecir</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

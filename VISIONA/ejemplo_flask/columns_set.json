@@ -1,0 +1,9 @@
+{
+	"data_columns": {
+		"id_municipio": "1",
+		"habitantes": "10000",
+		"accidentes": "50",
+		"vic_masculina": "30",
+		"vic_femenino": "20"
+	}
+}
