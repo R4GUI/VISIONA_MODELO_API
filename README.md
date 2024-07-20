@@ -21,7 +21,8 @@ VISIONA es un servicio de API REST que predice la peligrosidad de municipios bas
 1. Clonar el repositorio:
    ```
    git clone https://github.com/RaguiCastellanos/VISIONA_MODELO_API.git
-   cd visiona-proyecto
+   cd VISIONA
+   cd ejemplo_flask
    ```
 
 2. Crear y activar el entorno virtual:
@@ -40,7 +41,8 @@ VISIONA es un servicio de API REST que predice la peligrosidad de municipios bas
 1. Clonar el repositorio:
    ```
    git clone https://github.com/RaguiCastellanos/VISIONA_MODELO_API.git
-   cd visiona-proyecto
+   cd VISIONA
+   cd ejemplo_flask
    ```
 
 2. Construir y ejecutar con Docker Compose:
