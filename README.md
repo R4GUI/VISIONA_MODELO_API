@@ -20,7 +20,7 @@ VISIONA es un servicio de API REST que predice la peligrosidad de municipios bas
 
 1. Clonar el repositorio:
    ```
-   git clone https://github.com/tu-usuario/visiona-proyecto.git
+   git clone https://github.com/RaguiCastellanos/VISIONA_MODELO_API.git
    cd visiona-proyecto
    ```
 
@@ -39,7 +39,7 @@ VISIONA es un servicio de API REST que predice la peligrosidad de municipios bas
 
 1. Clonar el repositorio:
    ```
-   git clone https://github.com/tu-usuario/visiona-proyecto.git
+   git clone https://github.com/RaguiCastellanos/VISIONA_MODELO_API.git
    cd visiona-proyecto
    ```
 
